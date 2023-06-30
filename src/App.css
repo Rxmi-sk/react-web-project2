@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  background-image: url('/src/components/bg1.png');
+  margin: 0;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .ha{
+    color:white;
+    text-align: left;
+    text-shadow: 4px 4px 4px rgba(46,91,173,0.6) ;
   }
-  to {
-    transform: rotate(360deg);
+
+  .home-text{
+    color:#fffafa;
+    margin-top: 5%;
+    font-size:45px;
+    text-shadow: 4px 4px 4px rgba(46,91,173,0.6) ;
   }
+
+
+/*Home Card CSS Start*/
+/* .card-img-top-home {
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+} */
+
+.card-body-home{
+  width: 100%;
+  height: 19vw;
+  object-fit: cover;
 }
+
+.card-home {
+  width: 60%; 
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color:#ffffffc5;
+  }
+
+.card-block-home{
+    text-align: left;
+}
+
+.btn-primary{
+  background-color: #644c4c !important;
+  color: black;
+  font-size: 20px;
+  width: 200px;
+}
+
+.btn.active,.btn:hover{
+transform: scale(0.76);
+transition: .5s;
+color: white;
+}
+/*Home Card CSS End*/
+
+
+
+/* Refs Card CSS Start*/
+.card-img-top {
+  width: 100%;
+  height: 16vw;
+  object-fit: cover;
+}
+
+.card-body-ref {
+  width: 100%;
+  height: 19.5vw;
+  object-fit: cover;
+}
+
+
+.card-title-ref{
+  text-align: left;
+}
+
+.card-text-ref{
+  font-size: 1.2vw;
+  text-align: left;
+}
+
+.card-ref{
+  width: 100%;
+  height: 35vw;/*19.2*/
+  object-fit: cover;
+  background-color:#ffffffbb;
+  border: hidden 3px black;
+  color: #000000;
+}
+/*Refs Card CSS End */
+
+/* Fields Card CSS Start*/
+.card-img-top-field {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card-body-field {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+
+.card-title-field{
+  text-align: left;
+}
+
+.card-text-field{
+  font-size: 1.2vw;
+  text-align: left;
+}
+
+.card-field{
+  width: 100%;
+  height: 31vw;/*19.2*/
+  object-fit: cover;
+  background-color:#ffffffc0;
+  border: hidden 3px black;
+  color: #000000;
+}
+
+/*Fields Card CSS End */
