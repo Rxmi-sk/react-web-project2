@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 export default function Referees(){
     return(
     <>
-    <h1 className="ha"> Our Referees</h1>
+    <h1 className="ha" style={{color:"white"}}> Our Referees</h1>
    <div class="row">
         <div class="col">
           <div class="card-ref">

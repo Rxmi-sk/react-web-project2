@@ -6,7 +6,6 @@ import Home from "./components/pages/Home"
 import Fields from "./components/pages/Fields"
 import Contact from "./components/pages/Contact"
 import Registration from "./components/pages/Registration"
-
 import { Route, Routes } from "react-router-dom"
 
 
@@ -23,9 +22,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/registration" element={<Registration />} />
         </Routes>
-
-
       </div>
+      
     </>
   )
 

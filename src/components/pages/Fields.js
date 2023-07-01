@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 export default function Fields(){
     return(
     <>
-    <h1 className="ha"> Our Fields</h1>
+    <h1 className="ha" style={{color:"white"}}> Our Fields</h1>
 
     
     

@@ -18,6 +18,8 @@
     gap: 2rem;
     padding: 0 1rem;
     height: 90px;
+    text-shadow: 3px 3px 3px rgba(185, 59, 59, 0.6) ;
+
   } 
 
   /*CSS for logo start*/
@@ -42,6 +44,7 @@
   .site-title {
     margin-left: 150px;
     font-size: 3rem;
+    text-shadow: 6px 2px 4px rgba(185, 59, 59, 0.6) ;
   }
   
   .nav ul {
