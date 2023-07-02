@@ -47,6 +47,12 @@
     text-shadow: 6px 2px 4px rgba(185, 59, 59, 0.6) ;
   }
   
+  .site-title.active,.site-title:hover{
+    transform: scale(0.85);
+    transition: .5s;
+    color: white;
+    }
+  
   .nav ul {
     padding: 0;
     margin: 0;
@@ -65,11 +71,10 @@
     padding: .25rem;
   }
   
-  .nav li.active {
-    background-color: #555;
+  .nav li.active, .nav li:hover {
+    background-color: #6b5c5c;
+    transform: scale(0.76);
+    transition: .5s;
+    color: white;
   }
   
-  .nav li:hover {
-    background-color: #6b5c5c /*#777*/;
-  }
-
