@@ -38,7 +38,9 @@ body{
 
 .card-imgop {
   width: 100%; 
-  height: 500px;}
+  height: 500px;
+}
+
 
 .card-home {
   width: 100%; 
@@ -48,6 +50,7 @@ body{
 
 .card-block-home{
     text-align: left;
+    padding-left: 10px;
 }
 
 .btn-primary{
@@ -108,6 +111,7 @@ color: white;
   width: 100%;
   height: 15vw;
   object-fit: cover;
+  
 }
 
 .card-body-field {

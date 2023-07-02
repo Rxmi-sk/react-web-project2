@@ -17,7 +17,7 @@ export default function Fields(){
                     <div class="card-body-field">
                         <h5 class="card-title-field">Richcraft Soccer Field - Kanata</h5>
                         <p class="card-text-field"> The Richcraft Field is a high quality outdoor turf soccer field located in Kanata. It's been one of our number one outdoor fields for many years. The field is closed off during the Winter season.</p>
-                        <a href="/RegistrationTwo" target="_blank" class="btn btn-secondary" style={{ border: 'none' }}>View Location</a>
+                        <a href="https://goo.gl/maps/6bcwTeX1JpggMUB17" target="_blank" class="btn btn-secondary" style={{ border: 'none' }}>View Location</a>
                     </div>
                 </div>
             </div>
