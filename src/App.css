@@ -35,9 +35,14 @@ body{
   object-fit: cover;
 }
 
+
+.card-imgop {
+  width: 100%; 
+  height: 500px;}
+
 .card-home {
   width: 100%; 
-  height: 13vw;
+  height: 59vw;
   background-color:#ffffffc5;
   }
 
@@ -84,6 +89,7 @@ color: white;
   text-align: left;
 }
 
+
 .card-ref{
   width: 100%;
   height: 35vw;/*19.2*/
@@ -91,6 +97,9 @@ color: white;
   background-color:#ffffffbb;
   border: hidden 3px black;
   color: #000000;
+  border-radius: 10px; /* Adjust the value to control the amount of curvature */
+  border: 1px solid #ccc; /* Optional: Add a border to the card */
+  padding: 3px; 
 }
 /*Refs Card CSS End */
 
@@ -119,12 +128,22 @@ color: white;
 
 .card-field{
   width: 100%;
-  height: 31vw;/*19.2*/
+  height: 35vw;/*19.2*/
   object-fit: cover;
   background-color:#ffffffc0;
-  border: hidden 3px black;
   color: #000000;
+  border-radius: 10px; /* Adjust the value to control the amount of curvature */
+  border: 1px solid #ccc; /* Optional: Add a border to the card */
+  padding: 2px; 
 }
+
+.btn-secondary{
+  background-color: #644c4c !important;
+  color: black;
+  font-size: 20px;
+  width: 125px;
+}
+
 /*Fields Card CSS End */
 
 
@@ -138,7 +157,6 @@ color: white;
 .containerz .form-control {
   width: 50%; /* Adjust the width as per your requirements */
 }
-/*Contact CSS End */
 
 .containerg {
   position: relative;
@@ -176,4 +194,54 @@ color: white;
 transform: scale(0.76);
 transition: .5s;
 color: white;
+}
+
+.card-header .btn-link {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-header .btn-link:hover {
+  /* text-decoration: underline; */
+  color: #000000;
+}
+
+/*Contact CSS End */
+
+.btn-tree{
+  background-color: #644c4c !important;
+  color: #ffffff;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 6%;
+}
+
+
+.btn-tree.active,.btn-tree:hover{
+  transform: scale(0.76);
+  transition: .5s;
+  color: white;
+}
+
+.btn-four{
+  background-color: #644c4c !important;
+  color: #ffffff;
+  font-size: 20px;
+  width: 220px;
+  border-radius: 6%;
+}
+
+.btn-four.active,.btn-four:hover{
+  transform: scale(0.76);
+  transition: .5s;
+  color: white;
+}
+
+.Reg1{
+  background-color: none;
+  font-size: 20px;
+  width: 600px;
+  height: 450px;
+  margin: 0 auto;
 }

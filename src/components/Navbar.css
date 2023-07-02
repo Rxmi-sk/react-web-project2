@@ -10,7 +10,7 @@
   }
   
   .nav {
-    background-color: #644c4c; /*#333|#644c4c|*/
+    background-color: #644c4c; /*#333|#644c4c|#000000*/
     color: white;
     display: flex;
     justify-content: space-between;

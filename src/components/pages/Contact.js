@@ -19,14 +19,14 @@ const Contact = () => {
                     <div class="card-header" id="headingOne">
                          <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            How can I contact the 3X7GMZ Team?
+                            How can I contact 3X7GMZ?
                             </button>
                         </h5>
                     </div>
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                        You can reach our team by sending an email to 3X7GMZ@gmail.com or by calling our toll-free number at 613-847-4567. You can also send a simple question in the contact form located on the left side of this page.
+                        You can reach our team by sending an email to 3X7GMZ@gmail.com or by calling us at 613-847-4567. You can also send a simple question in the contact form located on the left side of this page.
                         </div>
                     </div>
                 </div>

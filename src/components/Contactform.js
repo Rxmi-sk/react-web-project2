@@ -37,7 +37,7 @@ const Contactform = () => {
           <label className="form-label" htmlFor="phone">
             Phone Number
           </label>
-          <input className="form-control" type="text" id="phone" placeholder="613-625-2766" required />
+          <input className="form-control" type="tel" id="phone" placeholder="613-625-2766" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required />
         </div>
 
         <div className="mb-3">
