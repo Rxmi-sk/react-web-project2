@@ -146,6 +146,7 @@ color: white;
   color: black;
   font-size: 20px;
   width: 125px;
+  margin-left: 25%;
 }
 
 /*Fields Card CSS End */
@@ -245,7 +246,166 @@ color: white;
 .Reg1{
   background-color: none;
   font-size: 20px;
-  width: 600px;
-  height: 450px;
-  margin: 0 auto;
+  width: 525px;
+  height: 100%;
+  margin-left: 1%;
+}
+
+.regpic{
+  width: 450px;
+  height: 420px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.containerl{
+  /* background-color:#8a7c7c1e; */
+  background-color:#00000069;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 200%;
+  border-radius: 1rem;
+}
+
+
+.Reg2{
+  background-color: none;
+  font-size: 20px;
+  width: 525px;
+  height: 100%;
+  margin-left: 1%;
+  text-align: center;
+}
+
+.regpic2{
+  width: 450px;
+  height: 390px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.containerx{
+  /* background-color:#8a7c7c1e; */
+  background-color:#00000069;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 200%;
+  height: 420px;
+  border-radius: 1rem;
+}
+
+
+.confirmation_bg{
+  background-color:#00000069;
+  height: 550px;  
+}
+
+.faceted-search {
+  /*float: left;*/
+  flex-direction: column;
+  align-items: center;
+  color: #282828;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+  border-style:solid;
+  background-color: #ffffff;
+}
+
+.h-one {
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 7vw;
+  text-align: center;
+  color: rgb(141, 0, 87);
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h-two {
+  padding: 15px;
+  font-size: 4vw;
+  text-align: center;
+  color: rgb(141, 0, 87);
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h-three {
+  padding: 15px;
+  font-size: 2.5vw;
+  text-align: center;
+  color: #4b4b4b;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h-four {
+  padding: 10px;
+  font-size: 2.3vw;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.h-five {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.h-six {
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.para {
+  padding: 5px 15px 5px 15px;
+  text-align: left;
+  color: #4b4b4b;
+  font-weight: bold;
+  font-size: 1.3vw;
+}
+
+
+.card {
+  border-radius: 20px;
+  transition: transform .2s;
+  opacity: 0.9;
+}
+
+
+.stepper {
+  color: #eee;
+  padding-bottom: 15px;
+  width: 98%;
+  margin: auto;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20%;
+
+}
+
+.box {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  float: left;
 }

@@ -31,6 +31,10 @@ function Navbar() {
                 <li>
                     <Link to="/registration"> Register Now</Link>
                 </li>
+{/* 
+                <li>
+                    <Link to="/homeTwo"> Français</Link>
+                </li> */}
             </ul>
 
 

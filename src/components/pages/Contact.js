@@ -42,7 +42,7 @@ const Contact = () => {
             
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                Absolutely! We take the security of your payment information seriously. Our website is encrypted with SSL (Secure Socket Layer) technology to protect your personal and financial data. We also use trusted payment gateways to process your transactions securely. 
+                Absolutely! We take the security of your payment information seriously. Our website uses trusted payment gateways to process your transactions securely. 
                 </div>
             </div>
         </div>
