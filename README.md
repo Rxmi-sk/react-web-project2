@@ -1,5 +1,7 @@
 # 3X7GMZ Website
 
+Link to Netlify:  https://3x7gmz-pickup-soccer-website-final.netlify.app/   
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
