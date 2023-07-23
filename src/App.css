@@ -10,6 +10,15 @@ body{
   padding: 0;
   }
 
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    float: left;
+  }
+  
+
   .ha{
     text-shadow: 4px 4px 4px rgba(185, 59, 59, 0.6) ;
   }
@@ -187,6 +196,7 @@ color: white;
   text-align: left;
 }
 
+
 .btn-danger{
   background-color: #644c4c !important;
   color: black;
@@ -304,97 +314,14 @@ color: white;
   height: 550px;  
 }
 
-.faceted-search {
-  /*float: left;*/
-  flex-direction: column;
-  align-items: center;
-  color: #282828;
+.filter-box {
   text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  transition: 0.3s;
-  border-style:solid;
+  color: #000000;
   background-color: #ffffff;
 }
 
-.h-one {
-  padding: 10px;
-  padding-top: 5px;
-  font-size: 7vw;
-  text-align: center;
-  color: rgb(141, 0, 87);
-  font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.h-two {
-  padding: 15px;
-  font-size: 4vw;
-  text-align: center;
-  color: rgb(141, 0, 87);
-  font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.h-three {
-  padding: 15px;
-  font-size: 2.5vw;
-  text-align: center;
-  color: #4b4b4b;
-  font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.h-four {
-  padding: 10px;
-  font-size: 2.3vw;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-
-.h-five {
-  font-size: 1.5vw;
-  font-weight: bold;
-}
-
-.h-six {
-  font-size: 1.3vw;
-  font-weight: bold;
-}
-
-.para {
-  padding: 5px 15px 5px 15px;
-  text-align: left;
-  color: #4b4b4b;
-  font-weight: bold;
-  font-size: 1.3vw;
-}
-
-
-.card {
-  border-radius: 20px;
-  transition: transform .2s;
-  opacity: 0.9;
-}
-
-
-.stepper {
-  color: #eee;
-  padding-bottom: 15px;
-  width: 98%;
-  margin: auto;
-}
-
-.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
-  border-radius: 10px;
-  overflow: hidden;
-  height: 20%;
-
-}
-
-.box {
+.descript {
   flex-basis: calc(33.33% - 20px);
   margin-bottom: 5px;
   border-radius: 10px;
@@ -402,10 +329,3 @@ color: white;
   box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
 }
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  float: left;
-}
